@@ -1,0 +1,38 @@
+h1 {font-size: 36px;}
+p {font-size: 18px;
+   color: #5d0101;
+   font-family: 'Times New Roman', Times, serif;}
+h1 {color: rgb(154, 6, 107);}
+h2 {color: #8b0000;}
+body {background-color: #f9e3e3;}
+h1, h2 { text-align: center;}
+img {display: block;margin: 0 auto;}
+h1, h2, nav a {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;}
+
+div.link {font-weight: bold;}
+    
+    .link.link-active {
+        color: red;
+    }
+    
+
+header > nav {
+    background-color: rgb(243, 203, 203);
+    padding: 10px;}
+
+nav {display:flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;}
+    
+
+nav a {text-decoration: none;
+        color: #5d0101;
+        font-size: 15px;
+        margin: 0 35px;}
+    
+    nav a:hover {
+        color: crimson;
+        font-weight: bold;}
